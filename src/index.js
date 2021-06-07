@@ -6,6 +6,7 @@ const app = express();
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
+const a;
 
 app.listen(3000, () => {
   console.log(' app on 3000!,changed node --v to 9 from 12');

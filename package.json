@@ -11,7 +11,7 @@
     },
     "husky": {
         "hooks": {
-            "pre-commit": "lint-staged"
+            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
         }
     },
     "lint-staged": {
@@ -26,6 +26,8 @@
         "@babel/core": "^7.14.3",
         "@babel/node": "^7.14.2",
         "@babel/preset-env": "^7.14.4",
+        "@commitlint/cli": "^12.1.4",
+        "@commitlint/config-conventional": "^12.1.4",
         "eslint": "^7.28.0",
         "eslint-config-airbnb-base": "^14.2.1",
         "eslint-plugin-import": "^2.23.4",

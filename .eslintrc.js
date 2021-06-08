@@ -9,7 +9,6 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    noconsole: true,
     'import/no-extraneous-dependencies': ['error', { devDependencies: false }],
   },
 };
